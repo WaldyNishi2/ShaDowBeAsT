@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = 15063227 #int(environ.get('API_ID', '15063227 969099516 '))
 API_HASH = 'f47faeb11641a6b267797e69728d1bd2'#environ.get('API_HASH', 'f47faeb11641a6b267797e69728d1bd2')
-BOT_TOKEN = '6852387416:AAHKeag4CggesgaOJwHJKKux6_l32ZXjrbg'#environ.get('BOT_TOKEN', "6852387416:AAHKeag4CggesgaOJwHJKKux6_l32ZXjrbg")
+BOT_TOKEN = '6468880436:AAFSQZcSi6i9NRq9dI8XhZCHoNiztMgsEyQ'#environ.get('BOT_TOKEN', "6468880436:AAFSQZcSi6i9NRq9dI8XhZCHoNiztMgsEyQ")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -33,7 +33,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://checkk:checkk@cluster0.olrw6fb.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "bot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "bott")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'beastfiles')
 
 # Others
